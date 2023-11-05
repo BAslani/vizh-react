@@ -26,11 +26,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-
-// import search from '../assets/search.svg'
-// <div className="h-12 w-12">
-// <img src={search} alt="search" />
-// </div>
-// <input type="search" placeholder='Search NFT, Artist, Exhibition...' className='bg-stone-300 p-3 rounded-4'/>
