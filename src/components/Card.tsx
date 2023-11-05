@@ -1,9 +1,9 @@
 
-const Card = ({image}) => {
+const Card = () => {
   return (
-    <div>
-        <img src={image} alt="" />
-    </div>
+<h3>
+   NFT Card
+</h3>
   )
 }
 
