@@ -18,7 +18,7 @@ const Navbar = () => {
                 </div>
 
             </form>
-            <button className="flex-end bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full justify-self-end">
+            <button className="flex-end bg-[#0E0E0E] hover:bg-gray-300 text-white font-bold py-2 px-4 rounded-full justify-self-end">
                 Connect Wallet
             </button>
         </nav>
