@@ -1,11 +1,13 @@
 import Logo from './Logo'
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <nav className='flex max-w-[90%] m-auto my-2 mb-12 items-center'>
             <div className="flex-none mr-12 self-center">
-                <Logo />
+                <Link to='/'>
+                    <Logo />
+                </Link>
             </div>
             <form className='flex-auto flex items-center'>
                 <div className="relative mt-3 w-[24rem]">
@@ -18,7 +20,7 @@ const Navbar = () => {
                 </div>
 
             </form>
-            <button className="flex-end bg-[#0E0E0E] hover:bg-gray-300 text-white font-bold py-2 px-4 rounded-full justify-self-end">
+            <button className="flex-end bg-[] hover:bg-gray-300 text-white font-bold py-2 px-4 rounded-full justify-self-end">
                 Connect Wallet
             </button>
         </nav>
