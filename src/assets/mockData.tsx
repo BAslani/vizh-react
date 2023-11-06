@@ -9,7 +9,7 @@ import nft08 from '../assets/nft08.png'
 import nft09 from '../assets/nft09.png'
 import nft10 from '../assets/nft10.png'
 
-const nftData: { id: number, nftName: string, artistName: string, currentBid: number, image: any }[] = [
+const nftData: { id: number, nftName: string, artistName: string, currentBid: number, image: string }[] = [
     {
         id: 1,
         nftName: "NFT Name",
