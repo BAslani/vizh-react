@@ -1,9 +1,11 @@
 import artist_icon from '../assets/artist_icon.svg'
+import { useNavigate } from 'react-router-dom'
 
-const Card = ({ id, nftName, artistName, currentBid, image }: { id: number, nftName: string, artistName: string, currentBid: number, image: any }) => {
+const Card = ({ id, nftName, artistName, currentBid, image }: { id: number, nftName: string, artistName: string, currentBid: number, image: string }) => {
+  const navigate = useNavigate()
 
   return (
-    <article className="w-72">
+    <article className="w-72 cursor-pointer transition-all duration-300 hover:scale-[1.01] hover:shadow-lg" onClick={() => navigate(`/submit/${id}`)}>
       <header className="bg-[#F5F5F5] shadow-xl p-4 rounded-t-lg">
         {nftName}
       </header>
