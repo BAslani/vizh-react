@@ -15,70 +15,70 @@ const nftData: { id: number, nftName: string, artistName: string, currentBid: nu
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image: { nft01 }
+        image: nft01
     },
     {
         id: 2,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image: { nft02 }
+        image: nft02
     },
     {
         id: 3,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image: { nft03 }
+        image: nft03
     },
     {
         id: 4,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image: { nft04 }
+        image: nft04
     },
     {
         id: 5,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image: { nft05 }
+        image: nft05
     },
     {
         id: 6,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image: { nft06 }
+        image: nft06
     },
     {
         id: 7,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image:  { nft07 }
+        image:  nft07
     },
     {
         id: 8,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image:  { nft08 }
+        image:  nft08
     },
     {
         id: 9,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image:  { nft09 }
+        image:  nft09
     },
     {
         id: 10,
         nftName: "NFT Name",
         artistName: "Artist Name",
         currentBid: 0.4,
-        image:  { nft10 }
+        image:  nft10
     },
 ];
 
