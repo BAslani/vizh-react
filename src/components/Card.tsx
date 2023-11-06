@@ -21,7 +21,6 @@ const Card = ({ id, nftName, artistName, currentBid, image }: { id: number, nftN
         </h3>
       </footer>
     </article>
-
   )
 }
 

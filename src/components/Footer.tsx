@@ -6,11 +6,11 @@ const Footer = () => {
             <div className="lg:w-[75%] m-auto">
                 <div className=" py-16 flex justify-between">
                     <img src={logo_white} alt="logo" />
-                    <div className="text-white flex-row w-[30rem]">
+                    <div className="text-white flex-row w-[32rem]">
                         <h2 className='text-3xl mb-5'>Become an Early Adopter</h2>
                         <form className='flex gap-2'>
-                            <input type="email" name="email" id="email" className='bg-transparent border-b-2 w-full' placeholder='Enter your Email-Adress'/>
-                            <button className="flex-end bg-[#93D39B] hover:bg-gray-300 text-black font-bold py-2 px-8 rounded-full justify-self-end">
+                            <input type="email" name="email" id="email" className='bg-transparent border-b-2 border-[#5B5B5B] w-full' placeholder='Enter your Email-Adress'/>
+                            <button className="flex-end bg-[#93D39B] hover:bg-gray-300 text-black font-bold py-2 px-10 rounded-full justify-self-end">
                                 Submit
                             </button>
                         </form>
