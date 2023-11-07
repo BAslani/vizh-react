@@ -2,7 +2,7 @@ import logo_white from '../assets/logo_white.svg'
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0E0E0E] py-10">
+        <footer className="bg-[#0E0E0E] py-10 font-[FoundryMonoline-Bold]">
             <div className="w-[80%] lg:w-[80%] m-auto">
                 <div className="md:flex md:justify-between md:mb-4 items-center lg:justify-normal xl:gap-[28rem]">
                     <img src={logo_white} alt="logo" className='mx-auto md:m-0 mb-4 md:mb-0'/>

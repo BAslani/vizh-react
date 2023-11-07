@@ -8,14 +8,14 @@ const Modal = ({ status }: { status: boolean }) => {
                     status ?
                         <div className="grid gap-6 place-items-center">
                             <img src={check} alt="check" />
-                            <h2 className='font-normal text-2xl'>
+                            <h2 className='font-medium text-2xl'>
                                 Bid submitted successfully
                             </h2>
                         </div>
                         :
                         <div className="grid gap-6 place-items-center">
                             <img src={loading} alt="loading" className='animate-spin' />
-                            <h2 className='font-normal text-2xl'>
+                            <h2 className='font-medium text-2xl'>
                                 Submitting your bid...
                             </h2>
                         </div>

@@ -26,7 +26,7 @@ const SubmitPage = () => {
   }
 
   return (
-    <main className="w-[80%] lg:grid grid-cols-7 gap-6 mx-auto my-12">
+    <main className="w-[80%] lg:grid grid-cols-7 gap-6 mx-auto my-12 font-[FoundryMonoline-Bold]">
       {showModal && <Modal status={status}/>}
       <div className="bg-[#F5F5F5] rounded-lg p-6 md:p-0 md:px-10 col-span-3 mb-8 md:mb-0">
         <div className="lg:py-10 lg:mt-6">
