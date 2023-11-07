@@ -19,3 +19,6 @@ I created a mock data file (array of objects) to simulate a json data iterated o
 used react useState hook to conditionaly render modal and simulate the submitting bid proccess
 
 used useNagivate hook to dynamically redirect to the home page after a successful bid.
+
+## screenshot
+![layout](/assessPrj.jpg)
