@@ -1,7 +1,8 @@
-import nftData from "../assets/mockData"
 import Card from "../components/Card";
+import { useAppSelector } from "../store";
 
 const Home = () => {
+  const nftData = useAppSelector((state) => state.nfts.nftList)
 
   return (
     <main className="max-w-[90%] m-auto mb-10">
