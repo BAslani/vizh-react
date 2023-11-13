@@ -21,4 +21,4 @@ used react useState hook to conditionaly render modal and simulate the submittin
 used useNagivate hook to dynamically redirect to the home page after a successful bid.
 
 ## screenshot
-![layout](/assessPrj.jpg)
+![layout](/screenshots/assessPrj.jpg)
